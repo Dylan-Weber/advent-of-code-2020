@@ -19,7 +19,6 @@ def clean_line(line):
     start, finish = ranges.split('-')
     return int(start), int(finish), letter, password.strip()
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     with open('input.txt') as input_file:
         inp = [clean_line(line) for line in input_file]

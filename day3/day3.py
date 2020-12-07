@@ -17,7 +17,6 @@ def part2(input):
            part1(input, (1, 5)) * part1(input, (1, 7)) * part1(input, (2, 1))
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     with open('input.txt') as input_file:
         inp = input_file.readlines()

@@ -17,7 +17,6 @@ def part2(input):
     return None, None, None
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     with open('day1/input.txt') as input_file:
         inp = input_file.readlines()
